@@ -1,0 +1,23 @@
+parameters:
+    hgtan_hello_jira_rest_api.endpoint.issue:       Hgtan\Bundle\HelloJiraRestApiBundle\Endpoint\IssueEndpoint
+    hgtan_hello_jira_rest_api.endpoint.issuetype:   Hgtan\Bundle\HelloJiraRestApiBundle\Endpoint\IssueTypeEndpoint
+    hgtan_hello_jira_rest_api.endpoint.field:       Hgtan\Bundle\HelloJiraRestApiBundle\Endpoint\FieldEndpoint
+    hgtan_hello_jira_rest_api.endpoint.customfield: Hgtan\Bundle\HelloJiraRestApiBundle\Endpoint\CustomFieldEndpoint
+
+services:
+    hgtan_jira_rest.endpoint.issue:
+        class: %hgtan_hello_jira_rest_api.endpoint.issue%
+        tags:
+            - { name: jira_rest_api.jira_endpoint }
+    hgtan_jira_rest.endpoint.issuetype:
+        class: %hgtan_hello_jira_rest_api.endpoint.issuetype%
+        tags:
+            - { name: jira_rest_api.jira_endpoint }
+    hgtan_jira_rest.endpoint.field:
+        class: %hgtan_hello_jira_rest_api.endpoint.field%
+        tags:
+            - { name: jira_rest_api.jira_endpoint }
+    hgtan_jira_rest.endpoint.customfield:
+        class: %hgtan_hello_jira_rest_api.endpoint.customfield%
+        tags:
+            - { name: jira_rest_api.jira_endpoint }
