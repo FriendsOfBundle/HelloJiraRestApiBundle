@@ -17,7 +17,7 @@ class UserController extends Controller
     public function findAction($id)
     {
         /*$apiClient = new \Bluetea\Api\Client\GuzzleClient(
-            'https://hoangthienan.atlassian.net/rest/api/2/',
+            'https://atlassian.atlassian.net/rest/api/2/',
             new \Bluetea\Api\Authentication\BasicAuthentication('admin', 'password')
         );
         $userEndpoint = new \Bluetea\Jira\Endpoint\UserEndpoint($apiClient);

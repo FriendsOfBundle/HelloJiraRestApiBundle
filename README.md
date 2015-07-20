@@ -69,22 +69,24 @@ Then register the bundle with your kernel:
 ```
 Example:
 ```
-    -- project
-    http://127.0.0.1:8000/project
-    http://127.0.0.1:8000/project/10303
-
     -- user
     http://127.0.0.1:8000/user/admin
 
-    -- issue
-    http://127.0.0.1:8000/issue
-    http://127.0.0.1:8000/issue/JRA-1
+    -- project
+    http://127.0.0.1:8000/project
+    http://127.0.0.1:8000/project/10303
 
     -- issuetype
     http://127.0.0.1:8000/issuetype
     http://127.0.0.1:8000/issuetype/22
 
+    -- issue
+    http://127.0.0.1:8000/issue
+    http://127.0.0.1:8000/issue/JRA-1
+
+    -- field
+    http://127.0.0.1:8000/field
+
     -- customfield
     http://127.0.0.1:8000/customfield/10115
-
 ```
