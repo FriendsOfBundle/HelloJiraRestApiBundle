@@ -65,8 +65,8 @@ Then register the bundle with your kernel:
 ### Step 4 : Test
 ```
     $ php app/console server:run
-    
 ```
+
 Example:
 ```
     -- user
