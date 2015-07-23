@@ -2,12 +2,13 @@
     "name": "hgtan/jira-rest-api-bundle",
     "type": "symfony-bundle",
     "description": "Hello Jira REST API Bundle",
+    "keywords": ["atlassian", "jira", "api"],
     "homepage": "http://hoangthienan.github.io",
     "license": "MIT",
     "authors": [
         {
             "name": "Hoang Thien An",
-            "homepage": "https://hoangthienan.com"
+            "homepage": "http://hoangthienan.com"
         }
     ],
     "require": {
